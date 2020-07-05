@@ -1,0 +1,28 @@
+$text: #000;
+
+
+@mixin fhalvetica500 {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+
+@mixin fhalvetica300 {
+    font-family: 'HelveticaNeueCyr';
+    font-weight: 300;
+}
+
+
+@mixin fproxima400 {
+    font-family: 'Proxima Nova Bl', sans-serif;
+    font-weight: 400;
+}
+
+@mixin fproxima500 {
+    font-family: 'Proxima Nova Bl', sans-serif;
+    font-weight: 500;
+}
+
+@mixin futura400 {
+    font-family: 'Futura PT Book';
+    font-weight: 400;
+}

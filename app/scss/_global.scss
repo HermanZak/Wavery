@@ -1,0 +1,65 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    color: $text;
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+img {
+    background-repeat: no-repeat;
+    // display: block;
+    background-position: center;
+    background-size: cover;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex: 0 0 auto;
+}
+
+body {
+    @include fproxima400;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: $text;
+    letter-spacing: 1px;
+
+}
+
+.container {
+    padding: 0 30px;
+}
+
+// .container-fluid {}
